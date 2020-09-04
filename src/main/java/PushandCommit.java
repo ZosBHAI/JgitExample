@@ -25,11 +25,11 @@ public class PushandCommit {
 		 */
 		
 		PushandCommit push = new PushandCommit();
-		String localpath="C:\\TechBlog\\JAVA\\localrepo\\";
-		String username= "ZosBHAI";
-		String password="GODgodgod59$";
-		String remoteRepoName = "experiment";
-		String email="wishnewvishnu59@gmail.com";
+		String localpath="C:\\TechBlog\\JAVA\\localrepo\\--local directory";
+		String username= "git username";
+		String password="password";
+		String remoteRepoName = "github repository name";
+		String email="github email id";
 		
 		push.initLocalRepository(localpath);
 		push.createremoteRepo(username, password, email, localpath, remoteRepoName);
